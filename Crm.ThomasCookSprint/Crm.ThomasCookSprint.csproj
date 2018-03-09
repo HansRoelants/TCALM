@@ -36,7 +36,11 @@
     <Content Include="Entities\Account\Entity.xml" />
     <Content Include="Entities\Account\RibbonDiff.xml" />
     <Content Include="Entities\Contact\Entity.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}_managed.xml" />
     <Content Include="Entities\Contact\RibbonDiff.xml" />
+    <Content Include="Entities\Lead\Entity.xml" />
+    <Content Include="Entities\Lead\RibbonDiff.xml" />
     <Content Include="Other\Customizations.xml" />
     <Content Include="Other\EntityMaps.xml" />
     <Content Include="Other\Relationships.xml" />

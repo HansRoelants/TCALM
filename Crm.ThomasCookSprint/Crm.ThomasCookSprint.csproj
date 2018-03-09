@@ -38,6 +38,8 @@
     <Content Include="Other\Customizations.xml" />
     <Content Include="Other\Relationships.xml" />
     <Content Include="Other\Solution.xml" />
+    <Content Include="WebResources\tc_\scripts\account.js" />
+    <Content Include="WebResources\tc_\scripts\account.js.data.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

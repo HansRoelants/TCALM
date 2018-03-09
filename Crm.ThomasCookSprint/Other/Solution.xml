@@ -79,6 +79,7 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="61" schemaName="tc_/scripts/account.js" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

@@ -80,9 +80,23 @@
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="1" />
       <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="lead" behavior="2" />
       <RootComponent type="61" schemaName="tc_/scripts/account.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_/scripts/contact.js" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.14)" />
+        <Dependent key="0" type="1" schemaName="lead" displayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.14)" />
+        <Dependent key="1" type="2" schemaName="tc_pdb1" displayName="pdb1" parentSchemaName="lead" parentDisplayName="Lead" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="26" schemaName="Closed Leads" displayName="Closed Leads" parentSchemaName="lead" parentDisplayName="Lead" solution="msdynce_LeadManagement (9.0.4.14)" id="{00000000-0000-0000-00aa-000010001009}" />
+        <Dependent key="2" type="26" schemaName="Closed Leads" displayName="Closed Leads" parentSchemaName="lead" parentDisplayName="Lead" id="{00000000-0000-0000-00aa-000010001009}" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

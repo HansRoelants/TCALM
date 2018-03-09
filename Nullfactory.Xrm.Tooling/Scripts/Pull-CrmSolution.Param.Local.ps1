@@ -21,7 +21,7 @@ Write-Host "Attempting to pull solution(s)..."
 try
 {
   .\Pull-CrmSolution.ps1 `
-    -serverUrl "https://tcalmdev3.crm4.dynamics.com" `
+    -serverUrl "https://tcalmdev1.crm4.dynamics.com" `
     -username (Get-CrmUsername "Crm.ThomasCookSprint") `
     -password (Get-CrmPassword "Crm.ThomasCookSprint") `
     -solutionName "ThomasCookSprint" `

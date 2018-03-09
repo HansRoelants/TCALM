@@ -116,4 +116,5 @@ Import-CrmSolution `
 	-PublishChanges:$publishChanges `
 	-ActivatePlugIns:$activatePlugIns `
 	-ImportAsHoldingSolution:$importAsHoldingSolution `
-	-MaxWaitTimeInSeconds 900
+	-MaxWaitTimeInSeconds 900 `
+	-OverwriteUnManagedCustomizations: $true

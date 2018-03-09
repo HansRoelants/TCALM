@@ -119,31 +119,35 @@
         <Dependent key="8" type="26" schemaName="Closed Leads" displayName="Closed Leads" parentSchemaName="lead" parentDisplayName="Lead" id="{00000000-0000-0000-00aa-000010001009}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.12)" id="{00000000-0000-0000-00aa-000010003000}" />
+        <Required key="9" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.14)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Dependent key="9" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.12)" id="{00000000-0000-0000-00aa-000010003000}" />
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.11)" id="{00000000-0000-0000-00aa-000010001028}" />
+        <Required key="11" type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.11)" id="{00000000-0000-0000-00aa-000010001028}" />
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="26" schemaName="Recent Cases" displayName="Recent Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.11)" id="{ebd1d24a-eea7-e211-9fb6-00155dd0ea05}" />
+        <Required key="12" type="26" schemaName="Recent Cases" displayName="Recent Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.11)" id="{ebd1d24a-eea7-e211-9fb6-00155dd0ea05}" />
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="59" schemaName="Case Mix (By Business Unit)" displayName="Case Mix (By Business Unit)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.11)" id="{f10375a6-4893-de11-97d4-00155da3b01e}" />
+        <Required key="13" type="59" schemaName="Case Mix (By Business Unit)" displayName="Case Mix (By Business Unit)" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.11)" id="{f10375a6-4893-de11-97d4-00155da3b01e}" />
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="13" type="59" schemaName="Entitlements Expiration" displayName="Entitlements Expiration" parentSchemaName="entitlement" parentDisplayName="Entitlement" solution="msdynce_Service (9.0.5.11)" id="{fdb919bb-c6fc-4fc8-8fa5-67ace68e41d1}" />
+        <Required key="14" type="59" schemaName="Entitlements Expiration" displayName="Entitlements Expiration" parentSchemaName="entitlement" parentDisplayName="Entitlement" solution="msdynce_Service (9.0.5.11)" id="{fdb919bb-c6fc-4fc8-8fa5-67ace68e41d1}" />
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.12)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
+        <Required key="15" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.12)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}" />
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="15" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.14)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Required key="16" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.14)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
@@ -151,7 +155,7 @@
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.0.0001.0510)" />
+        <Required key="17" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.0.0001.0510)" />
         <Dependent key="2" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       </MissingDependency>
     </MissingDependencies>

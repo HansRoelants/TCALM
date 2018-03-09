@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6B24C3A-F87D-4C32-8DA9-2258261438E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crm.ThomasCook</RootNamespace>
+    <AssemblyName>Crm.ThomasCook</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entities\Account\Entity.xml" />
+    <Content Include="Entities\Account\FormXml\card\{cccff382-2b92-467e-bf1b-3db179512af8}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{a72c7955-442b-4ea4-9499-b10cd18b4256}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}.xml" />
+    <Content Include="Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}_managed.xml" />
+    <Content Include="Entities\Account\FormXml\quickCreate\{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{098ae145-1567-41ec-8398-86dbaac70c9b}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{2205c86d-ed88-4a2f-a447-3b86a8781f2e}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{43300723-f867-420b-ab28-976a4d12e6c4}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{69cff312-cfb6-4289-9631-249ab85d2c62}.xml" />
+    <Content Include="Entities\Account\FormXml\quick\{b028db32-3619-48a5-ac51-cf3f947b0ef3}.xml" />
+    <Content Include="Entities\Account\RibbonDiff.xml" />
+    <Content Include="Entities\Contact\Entity.xml" />
+    <Content Include="Entities\Contact\FormXml\card\{bc0f68dd-a4b1-4a8f-bed3-c8f5db2f89cf}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}_managed.xml" />
+    <Content Include="Entities\Contact\FormXml\main\{cc760212-3eab-4009-b5c3-ea9cf6f3e141}.xml" />
+    <Content Include="Entities\Contact\FormXml\quickCreate\{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{29de27bc-a257-4f29-99cf-bab4a84e688f}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{3d22ab88-96c8-4b3f-a533-d4827e2925c9}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{707fc57b-c5e6-471b-a180-e37ed28a38e2}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{7bb87dfd-ec3e-4ed9-8e3e-5725d3067295}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{bdb0ae1c-32fa-4374-b637-8dafe107bc44}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{cdbb9298-3b2e-41f3-8f4a-0168d6b09fc4}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{d880c3cf-80e2-42f3-82f9-24d040d09f17}.xml" />
+    <Content Include="Entities\Contact\FormXml\quick\{f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e}.xml" />
+    <Content Include="Entities\Contact\FormXml\taskBasedForm\{26843818-6508-4afe-9342-5fae2ebf15ca}.xml" />
+    <Content Include="Entities\Contact\RibbonDiff.xml" />
+    <Content Include="Entities\tc_country\Entity.xml" />
+    <Content Include="Entities\tc_country\FormXml\card\{04dbf412-eba6-4394-936d-b3a606cea7af}.xml" />
+    <Content Include="Entities\tc_country\FormXml\card\{04dbf412-eba6-4394-936d-b3a606cea7af}_managed.xml" />
+    <Content Include="Entities\tc_country\FormXml\main\{a7cadcd6-90f4-4005-a79b-b549fcea1eb0}.xml" />
+    <Content Include="Entities\tc_country\FormXml\main\{a7cadcd6-90f4-4005-a79b-b549fcea1eb0}_managed.xml" />
+    <Content Include="Entities\tc_country\FormXml\quick\{eb9266fe-f4ae-4420-9a73-6af73db55913}.xml" />
+    <Content Include="Entities\tc_country\FormXml\quick\{eb9266fe-f4ae-4420-9a73-6af73db55913}_managed.xml" />
+    <Content Include="Entities\tc_country\RibbonDiff.xml" />
+    <Content Include="Entities\tc_country\SavedQueries\{293e7aac-a323-e811-a82e-000d3ab4831f}.xml" />
+    <Content Include="Entities\tc_country\SavedQueries\{3b208a59-e26c-411a-9838-82aed0fd12da}.xml" />
+    <Content Include="Entities\tc_country\SavedQueries\{424d2356-4de2-4d72-9b12-4d10d30fcd63}.xml" />
+    <Content Include="Entities\tc_country\SavedQueries\{46d3d04a-a817-4863-80a9-905fcacff523}.xml" />
+    <Content Include="Entities\tc_country\SavedQueries\{693da973-ba08-45a1-bec2-8dd941bdde99}.xml" />
+    <Content Include="Entities\tc_country\SavedQueries\{d8c71e91-a02b-4e13-9b22-a97e0a728272}.xml" />
+    <Content Include="Entities\tc_country\SavedQueries\{f274cf04-ae77-47d4-8a6e-2f1ba96b887a}.xml" />
+    <Content Include="Entities\tc_gateway\Entity.xml" />
+    <Content Include="Entities\tc_gateway\FormXml\card\{bbbda6c4-db02-4bcd-9168-b77d9b816d1a}.xml" />
+    <Content Include="Entities\tc_gateway\FormXml\card\{bbbda6c4-db02-4bcd-9168-b77d9b816d1a}_managed.xml" />
+    <Content Include="Entities\tc_gateway\FormXml\main\{6dfbab0d-d5f7-4c88-ba8f-62d8b8e6a1a4}.xml" />
+    <Content Include="Entities\tc_gateway\FormXml\main\{6dfbab0d-d5f7-4c88-ba8f-62d8b8e6a1a4}_managed.xml" />
+    <Content Include="Entities\tc_gateway\FormXml\quick\{3388fa4a-7179-464a-9a0f-6073d2e2f628}.xml" />
+    <Content Include="Entities\tc_gateway\FormXml\quick\{3388fa4a-7179-464a-9a0f-6073d2e2f628}_managed.xml" />
+    <Content Include="Entities\tc_gateway\RibbonDiff.xml" />
+    <Content Include="Entities\tc_gateway\SavedQueries\{53e4b0eb-120d-46bb-bdc2-bdf72284f4b6}.xml" />
+    <Content Include="Entities\tc_gateway\SavedQueries\{8600ffc8-bd92-4842-89c6-0a5b1f92af91}.xml" />
+    <Content Include="Entities\tc_gateway\SavedQueries\{862f6ea5-78df-4ae4-afbe-ad05a753eb93}.xml" />
+    <Content Include="Entities\tc_gateway\SavedQueries\{8bd26cbe-a323-e811-a82e-000d3ab4831f}.xml" />
+    <Content Include="Entities\tc_gateway\SavedQueries\{9b1e8597-0af0-4917-9521-a4f6155e040c}.xml" />
+    <Content Include="Entities\tc_gateway\SavedQueries\{d9de5fd9-d55c-4e4a-9872-1ecb9c642b59}.xml" />
+    <Content Include="Entities\tc_gateway\SavedQueries\{e8dd42c0-0b8c-4c8d-9b8d-c869ae9402ed}.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Solution.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="Build">
+    <Exec Command="&quot;$(SolutionDir)\Nullfactory.Xrm.Tooling\bin\coretools\SolutionPackager.exe&quot; /action:pack /packagetype:both /folder:&quot;$(MSBuildProjectDirectory)&quot; /zipfile:&quot;$(OutDir)$(MSBuildProjectName).zip&quot; /map:&quot;$(SolutionDir)\Nullfactory.Xrm.Tooling\Mappings\ThomasCook-mapping.xml&quot;" />
+  </Target>
+</Project>

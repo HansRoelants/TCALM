@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_tc_country" />
+  <EntityRelationship Name="business_unit_tc_gateway" />
+  <EntityRelationship Name="lk_tc_country_createdby" />
+  <EntityRelationship Name="lk_tc_country_modifiedby" />
+  <EntityRelationship Name="lk_tc_gateway_createdby" />
+  <EntityRelationship Name="lk_tc_gateway_modifiedby" />
+  <EntityRelationship Name="owner_tc_country" />
+  <EntityRelationship Name="owner_tc_gateway" />
+  <EntityRelationship Name="team_tc_country" />
+  <EntityRelationship Name="team_tc_gateway" />
+  <EntityRelationship Name="user_tc_country" />
+  <EntityRelationship Name="user_tc_gateway" />
+</EntityRelationships>

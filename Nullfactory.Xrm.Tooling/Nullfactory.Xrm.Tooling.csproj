@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- generated using generator-nullfactory-xrm@1.6.0 -->
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -42,6 +42,7 @@
     <Content Include="bin\coretools\Microsoft.Xrm.Tooling.CrmConnectControl.dll" />
     <Content Include="bin\coretools\Other Redistributable.txt" />
     <Content Include="bin\coretools\SolutionPackager.exe" />
+    <Content Include="Mappings\ThomasCook-mapping.xml" />
     <Content Include="Mappings\ThomasCookSprint-mapping.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -49,8 +50,9 @@
     <None Include="Scripts\ApplyVersionToArtifact.ps1" />
     <None Include="Scripts\Deploy-CrmSolution.Param.ps1" />
     <None Include="Scripts\Deploy-CrmSolution.ps1" />
-    <None Include="Scripts\Pull-CrmSolution.Param.ps1" />
+    <None Include="Scripts\Pull-CrmSolution.Param.Local.ps1" />
     <None Include="Scripts\Pull-CrmSolution.ps1" />
+    <None Include="Scripts\Pull-CrmSolution.Param.Base.ps1" />
     <None Include="Scripts\CrmSolution.Common.ps1" />
     <None Include="_Install\Install-Microsoft.Xrm.Data.PowerShell.ps1" />
     <None Include="Scripts\omapi\Backup-CrmInstance.ps1" />

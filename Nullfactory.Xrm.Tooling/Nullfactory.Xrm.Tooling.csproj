@@ -50,9 +50,9 @@
     <None Include="Scripts\ApplyVersionToArtifact.ps1" />
     <None Include="Scripts\Deploy-CrmSolution.Param.ps1" />
     <None Include="Scripts\Deploy-CrmSolution.ps1" />
+    <None Include="Scripts\Pull-CrmSolution.Param.Base.ps1" />
     <None Include="Scripts\Pull-CrmSolution.Param.Local.ps1" />
     <None Include="Scripts\Pull-CrmSolution.ps1" />
-    <None Include="Scripts\Pull-CrmSolution.Param.Base.ps1" />
     <None Include="Scripts\CrmSolution.Common.ps1" />
     <None Include="_Install\Install-Microsoft.Xrm.Data.PowerShell.ps1" />
     <None Include="Scripts\omapi\Backup-CrmInstance.ps1" />

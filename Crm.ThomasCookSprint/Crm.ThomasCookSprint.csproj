@@ -41,6 +41,7 @@
     <Content Include="Entities\Contact\RibbonDiff.xml" />
     <Content Include="Entities\Lead\Entity.xml" />
     <Content Include="Entities\Lead\RibbonDiff.xml" />
+    <Content Include="Entities\Lead\SavedQueries\{00000000-0000-0000-00aa-000010001009}.xml" />
     <Content Include="Other\Customizations.xml" />
     <Content Include="Other\EntityMaps.xml" />
     <Content Include="Other\Relationships.xml" />

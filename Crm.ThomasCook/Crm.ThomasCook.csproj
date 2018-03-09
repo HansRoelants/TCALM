@@ -93,8 +93,14 @@
     <Content Include="Entities\tc_gateway\SavedQueries\{9b1e8597-0af0-4917-9521-a4f6155e040c}.xml" />
     <Content Include="Entities\tc_gateway\SavedQueries\{d9de5fd9-d55c-4e4a-9872-1ecb9c642b59}.xml" />
     <Content Include="Entities\tc_gateway\SavedQueries\{e8dd42c0-0b8c-4c8d-9b8d-c869ae9402ed}.xml" />
+    <Content Include="InteractionCentricDashboards\{15915835-b87c-49ec-9ffc-bfac3ac44ef1}.xml" />
+    <Content Include="InteractionCentricDashboards\{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}.xml" />
     <Content Include="Other\Customizations.xml" />
     <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\BusinessUnit.xml" />
+    <Content Include="Other\Relationships\Owner.xml" />
+    <Content Include="Other\Relationships\SystemUser.xml" />
+    <Content Include="Other\Relationships\Team.xml" />
     <Content Include="Other\Solution.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

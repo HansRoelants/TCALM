@@ -78,7 +78,10 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
       <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="61" schemaName="tc_/scripts/account.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/scripts/contact.js" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

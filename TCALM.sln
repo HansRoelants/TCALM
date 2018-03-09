@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.Xrm.Workflows", "Crm.Xr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.ThomasCook", "Crm.ThomasCook\Crm.ThomasCook.csproj", "{D6B24C3A-F87D-4C32-8DA9-2258261438E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm.ThomasCook.Sprint", "Crm.ThomasCook.Sprint\Crm.ThomasCook.Sprint.csproj", "{BCC8C3DD-6011-4FA8-9B11-FEAB9A181802}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,10 +46,6 @@ Global
 		{D6B24C3A-F87D-4C32-8DA9-2258261438E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6B24C3A-F87D-4C32-8DA9-2258261438E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6B24C3A-F87D-4C32-8DA9-2258261438E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BCC8C3DD-6011-4FA8-9B11-FEAB9A181802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCC8C3DD-6011-4FA8-9B11-FEAB9A181802}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCC8C3DD-6011-4FA8-9B11-FEAB9A181802}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCC8C3DD-6011-4FA8-9B11-FEAB9A181802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

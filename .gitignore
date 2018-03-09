@@ -4,8 +4,9 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
-**/*.zip
-**/*.ps1
+**/scripts/
+*.zip
+*.ps1
 
 # User-specific files
 *.suo

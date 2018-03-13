@@ -42,10 +42,24 @@
     <Content Include="Entities\Lead\Entity.xml" />
     <Content Include="Entities\Lead\RibbonDiff.xml" />
     <Content Include="Entities\Lead\SavedQueries\{00000000-0000-0000-00aa-000010001009}.xml" />
+    <Content Include="Entities\tc_test\Entity.xml" />
+    <Content Include="Entities\tc_test\FormXml\card\{b8dc47f4-4fe4-42bc-89ee-33890c16e8cd}.xml" />
+    <Content Include="Entities\tc_test\FormXml\main\{dd498e53-31ec-4f98-b501-8ed590020196}.xml" />
+    <Content Include="Entities\tc_test\FormXml\quick\{e7455a80-6e4f-4083-a7fb-a7e2c4884b80}.xml" />
+    <Content Include="Entities\tc_test\RibbonDiff.xml" />
+    <Content Include="Entities\tc_test\SavedQueries\{2da28d1c-67ab-4ec1-9563-5cdd17b17b0e}.xml" />
+    <Content Include="Entities\tc_test\SavedQueries\{5b1f1e98-0d46-47e4-a932-099d7e284a06}.xml" />
+    <Content Include="Entities\tc_test\SavedQueries\{6d5aebe8-9be9-4a46-bfbc-a4f33f652ca6}.xml" />
+    <Content Include="Entities\tc_test\SavedQueries\{78ae6a47-0b36-412f-8333-8673cbf2cbe1}.xml" />
+    <Content Include="Entities\tc_test\SavedQueries\{8733fb7a-d526-e811-a82c-000d3ab488e0}.xml" />
+    <Content Include="Entities\tc_test\SavedQueries\{bf3f83ed-60d5-4a07-a921-b654ced69faf}.xml" />
+    <Content Include="Entities\tc_test\SavedQueries\{e1b6e034-bdb0-474b-b763-ecca67ce739a}.xml" />
     <Content Include="Other\Customizations.xml" />
     <Content Include="Other\EntityMaps.xml" />
     <Content Include="Other\Relationships.xml" />
     <Content Include="Other\Solution.xml" />
+    <Content Include="PluginAssemblies\CrmXrmPlugins-55A389B4-A3A7-47D4-AF17-4E9EA355F779\CrmXrmPlugins.dll.data.xml" />
+    <Content Include="SdkMessageProcessingSteps\{5fa3c469-d026-e811-a9be-000d3a2bb91c}.xml" />
     <Content Include="WebResources\tc_\scripts\account.js" />
     <Content Include="WebResources\tc_\scripts\account.js.data.xml" />
     <Content Include="WebResources\tc_\scripts\contact.js" />
@@ -60,6 +74,6 @@
   </Target>
   -->
   <Target Name="Build">
-    <Exec Command="&quot;$(SolutionDir)\Nullfactory.Xrm.Tooling\bin\coretools\SolutionPackager.exe&quot; /action:pack /packagetype:both /folder:&quot;$(MSBuildProjectDirectory)&quot; /zipfile:&quot;$(OutDir)$(MSBuildProjectName).zip&quot; /map:&quot;$(SolutionDir)\Nullfactory.Xrm.Tooling\Mappings\ThomasCookSprint-mapping.xml&quot;" />
+    <Exec Command="&quot;$(SolutionDir)\Nullfactory.Xrm.Tooling\bin\coretools\SolutionPackager.exe&quot; /action:pack /packagetype:Unmanaged /folder:&quot;$(MSBuildProjectDirectory)&quot; /zipfile:&quot;$(OutDir)$(MSBuildProjectName).zip&quot; /map:&quot;$(SolutionDir)\Nullfactory.Xrm.Tooling\Mappings\ThomasCookSprint-mapping.xml&quot;" />
   </Target>
 </Project>

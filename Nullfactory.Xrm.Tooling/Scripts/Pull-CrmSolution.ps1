@@ -93,9 +93,6 @@ if (Test-Path $exportZipFileNameManaged) { Remove-Item $exportZipFileNameManaged
 Write-Verbose "Exporting the un-managed version of the solution..."
 Export-CrmSolution -SolutionName $solutionName -SolutionZipFileName $exportZipFileName
 
-Write-Verbose "Exporting the managed version of the solution..."
-Export-CrmSolution -SolutionName $solutionName -Managed -SolutionZipFileName $exportZipFileNameManaged
-
 Write-Verbose "Delete the source controlled artifacts while keeping the project file intact..."
 Remove-Item -Recurse $solutionRootFolder  -Force -exclude *.csproj
 
@@ -104,7 +101,7 @@ if($solutionMapFile -eq "")
 {
 	.\..\bin\coretools\SolutionPackager.exe `
 	/a:extract `
-	/packagetype:both `
+	/packagetype:Unmanaged `
 	/f:"$solutionRootFolder" `
 	/z:"$exportZipFileName" `
 	/ad:no
@@ -114,7 +111,7 @@ else
 	Write-Verbose "Using mapping file $solutionMapFile for unpacking"
 	.\..\bin\coretools\SolutionPackager.exe `
 	/a:extract `
-	/packagetype:both `
+	/packagetype:Unmanaged `
 	/f:"$solutionRootFolder" `
 	/z:"$exportZipFileName" `
 	/ad:no `

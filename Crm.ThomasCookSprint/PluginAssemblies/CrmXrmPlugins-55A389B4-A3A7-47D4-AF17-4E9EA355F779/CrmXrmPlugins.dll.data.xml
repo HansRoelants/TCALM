@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Crm.Xrm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8b4ef3793311b7d5" PluginAssemblyId="55a389b4-a3a7-47d4-af17-4e9ea355f779" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CrmXrmPlugins-55A389B4-A3A7-47D4-AF17-4E9EA355F779/CrmXrmPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Crm.Xrm.Plugins.SimplePlugin, Crm.Xrm.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8b4ef3793311b7d5" PluginTypeId="4ad60685-97d9-471f-a93c-e128b8b2f8e0" Name="Crm.Xrm.Plugins.SimplePlugin">
+      <FriendlyName>213c5e20-c9e7-45a5-a6f1-c94bf2175d72</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>
